@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script language="javascript" type="text/javascript">
+function windowClose() {
+window.open('','_parent','');
+window.close();
+}
+</script>
+
+<input type="button" value="Close this window 1" onclick="windowClose();">
+
+
+<input type="button" value="Close this window 2" onclick="self.close()">
+
+
+<a href="javascript:windowClose()">Close this window 3</a>
+</body>
+</html>
